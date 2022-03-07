@@ -16,7 +16,7 @@ ActiveRecord::Base.establish_connection(
   port: 5432,
   pool: 5,
   encoding: 'unicode',
-  min_messages: 'error'
+  min_messages: 'error',
 )
 puts 'CONNECTED'
 
